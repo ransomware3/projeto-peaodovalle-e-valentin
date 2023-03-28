@@ -20,7 +20,7 @@ const GlobalStyle = createGlobalStyle`
         list-style: none;
     }
 
-    a{
+    a, label{
         text-decoration: none;
         color: #f5f5f5;
     }

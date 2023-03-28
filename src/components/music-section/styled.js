@@ -30,7 +30,7 @@ export const OpacityMusic = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(34, 34, 34, 0.8);
+    background-color: rgba(0, 0, 0, 0.9);
 `
 
 export const Ul = styled.ul`

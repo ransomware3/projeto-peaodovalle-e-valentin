@@ -7,7 +7,11 @@ import {
     Nav,
     Ul,
     Li,
-    Limiter
+    Limiter,
+    HambNav,
+    HambUl,
+    InputCheck,
+    NavMobList
 } from './styled'
 
 const Header = () => {
@@ -16,7 +20,7 @@ const Header = () => {
         color: '#c66417',
     }
 
-    return(
+    return (
         <>
             <HeaderTag>
                 <Limiter>
@@ -29,9 +33,38 @@ const Header = () => {
                             <Li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/contato">Contato</NavLink></Li>
                         </Ul>
                     </Nav>
+                    <NavMob/>
                 </Limiter>
             </HeaderTag>
         </>
+    )
+}
+
+const NavMob = () => {
+
+    let activeStyle = {
+        color: '#c66417',
+    }
+
+    return (
+        <NavMobList>
+            <InputCheck type="checkbox" id="menu-hamburguer"></InputCheck>
+
+            <label htmlFor="menu-hamburguer">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+
+            <HambNav className='nav-mob'>
+                <HambUl>
+                    <Li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/">Início</NavLink></Li>
+                    <Li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/discografia">Discografia</NavLink></Li>
+                    <Li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/biografia">Biografia</NavLink></Li>
+                    <Li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/contato">Contato</NavLink></Li>
+                </HambUl>
+            </HambNav>
+        </NavMobList>
     )
 }
 

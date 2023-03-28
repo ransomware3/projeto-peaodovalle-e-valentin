@@ -16,8 +16,13 @@ export const Opacity = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 `
 
 export const P = styled.p`
     color: #ccc;
+
+    @media(max-width: 500px){
+        font-size: 13px;
+    }
 `

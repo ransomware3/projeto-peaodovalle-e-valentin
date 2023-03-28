@@ -22,14 +22,15 @@ export const Opacity = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    padding: 20px;
 `
 
 export const UlSocial = styled.ul`
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     width: 100%;
-    gap: 150px;
+    flex-flow: row wrap;
+    gap: 40px;
 `
 
 export const Anchor = styled.a`
@@ -37,38 +38,72 @@ export const Anchor = styled.a`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    font-size: 15px;
+
+    @media(max-width: 465px){
+        font-size: 13px;
+    }
 `
 
 export const H2 = styled.h2`
     font-size: 35px;
+    margin-bottom: 80px;
+
+    @media(max-width: 1050px){
+        font-size: 30px;
+    }
+
+    @media(max-width: 465px){
+        margin-bottom: 50px;
+    }
 `
 
 export const Instagram = styled(BsInstagram)`
     font-size: 37px;
     color: #c62e90;
     margin-bottom: 15px;
+
+    @media(max-width: 465px){
+        font-size: 35px;
+    }
 `
 
 export const Facebook = styled(BsFacebook)`
     font-size: 40px;
     color: #1772e9;
     margin-bottom: 15px;
+
+    @media(max-width: 465px){
+        font-size: 35px;
+    }
 `
 
 export const Spotify = styled(FaSpotify)`
     font-size: 40px;
     color: #1dd05d;
     margin-bottom: 15px;
+
+    @media(max-width: 465px){
+        font-size: 35px;
+    }
 `
 
 export const Youtube = styled(BsYoutube)`
     font-size: 45px;
     color: #f70000;
     margin-bottom: 15px;
+
+    @media(max-width: 465px){
+        font-size: 35px;
+    }
 `
 
 export const Deezer = styled(FaDeezer)`
     font-size: 45px;
     color: #fff;
     margin-bottom: 15px;
+
+    @media(max-width: 465px){
+        font-size: 43px;
+    }
 `
