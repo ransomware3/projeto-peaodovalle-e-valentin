@@ -9,9 +9,14 @@ import Wood from '../../images/wood-3.jpg'
 export const Section = styled.section`
     width: 100%;
     height: 400px;
-    background-image: url(${Wood});
+    // background-image: url(${Wood});
+    background-color: #111;
     background-size: cover;
     background-repeat: no-repeat;
+
+    @media(max-width: 590px){
+        height: 350px;
+    }
 `
 
 export const Opacity = styled.div`
@@ -40,7 +45,7 @@ export const Anchor = styled.a`
     justify-content: center;
     font-size: 15px;
 
-    @media(max-width: 465px){
+    @media(max-width: 477px){
         font-size: 13px;
     }
 `
@@ -53,7 +58,7 @@ export const H2 = styled.h2`
         font-size: 30px;
     }
 
-    @media(max-width: 465px){
+    @media(max-width: 477px){
         margin-bottom: 50px;
     }
 `
@@ -63,7 +68,7 @@ export const Instagram = styled(BsInstagram)`
     color: #c62e90;
     margin-bottom: 15px;
 
-    @media(max-width: 465px){
+    @media(max-width: 477px){
         font-size: 35px;
     }
 `
@@ -73,7 +78,7 @@ export const Facebook = styled(BsFacebook)`
     color: #1772e9;
     margin-bottom: 15px;
 
-    @media(max-width: 465px){
+    @media(max-width: 477px){
         font-size: 35px;
     }
 `
@@ -83,7 +88,7 @@ export const Spotify = styled(FaSpotify)`
     color: #1dd05d;
     margin-bottom: 15px;
 
-    @media(max-width: 465px){
+    @media(max-width: 477px){
         font-size: 35px;
     }
 `
@@ -93,7 +98,7 @@ export const Youtube = styled(BsYoutube)`
     color: #f70000;
     margin-bottom: 15px;
 
-    @media(max-width: 465px){
+    @media(max-width: 477px){
         font-size: 35px;
     }
 `
@@ -103,7 +108,7 @@ export const Deezer = styled(FaDeezer)`
     color: #fff;
     margin-bottom: 15px;
 
-    @media(max-width: 465px){
+    @media(max-width: 477px){
         font-size: 43px;
     }
 `

@@ -9,6 +9,10 @@ export const Section = styled.section`
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
+
+    @media(max-width: 590px){
+        height: 400px;
+    }
 `
 
 export const Opacity = styled.div`
@@ -25,4 +29,12 @@ export const Iframe = styled.iframe`
     border-radius: 10px;
     border: none;
     z-index: 3;
+
+    @media(max-width: 768px){
+        transform: scale(1);
+    }
+
+    @media(max-width: 590px){
+        transform: scale(0.8);
+    }
 `

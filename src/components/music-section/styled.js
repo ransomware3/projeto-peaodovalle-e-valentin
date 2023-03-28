@@ -19,7 +19,7 @@ export const SectionLimiter = styled.div`
     display: flex;
     flex-flow: column wrap;
 
-    @media(max-width: 1000px){
+    @media(max-width: 1519px){
         text-align: center;
     }
 `
@@ -35,14 +35,14 @@ export const OpacityMusic = styled.div`
 
 export const Ul = styled.ul`
     width: 100%;
-    // height: 400px;
     padding-bottom: 80px;
     border-bottom: 1px solid #ccc;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     flex-flow: row wrap;
     margin-bottom: 80px;
+    gap: 60px;
 `
 
 export const Li = styled.li`
@@ -59,14 +59,34 @@ export const Anchor = styled.a`
     background-size: contain;
     background-repeat: no-repeat;
     border-radius: 10px;
+
+    @media(max-width: 1839px){
+        width: 280px;
+        height: 280px;
+    }
+
+    @media(max-width: 1733px){
+        width: 260px;
+        height: 260px;
+    }
+
+    @media(max-width: 1627px){
+        width: 240px;
+        height: 240px;
+    }
 `
 
 export const H2 = styled.h2`
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 `
 
 export const DivIframe = styled.div`
     display: flex;
     width: 100%;
     flex-direction: column;
+    margin-bottom: 20px;
+`
+
+export const P = styled.p`
+    font-size: 14px;
 `
