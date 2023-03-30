@@ -1,11 +1,15 @@
 import styled from "styled-components"
+import Background from '../../images/fundo-contato.jpg'
 
 export const AlignLimiter = styled.section`
     display: flex;
     width: 100%;
-    height: 670px;
+    height: 687px;
     justify-content: center;
-    background-color: #222;
+    background-image: url(${Background});
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     padding-bottom: 40px;
 `
 
@@ -29,4 +33,14 @@ export const DivContact = styled.div`
     justify-content: space-evenly;
     flex-flow: row wrap;
     margin-top: 50px;
+`
+
+export const Opacity = styled.div`
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    min-height: 687px;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding-bottom: 40px; 
 `
