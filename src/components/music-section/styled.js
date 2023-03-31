@@ -74,6 +74,21 @@ export const Anchor = styled.a`
         width: 240px;
         height: 240px;
     }
+
+    @media(max-width: 1519px){
+        width: 220px;
+        height: 220px;
+    }
+
+    @media(max-width: 1413px){
+        width: 200px;
+        height: 200px;
+    }
+
+    @media(max-width: 1307px){
+        width: 180px;
+        height: 180px;
+    }
 `
 
 export const H2 = styled.h2`

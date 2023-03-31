@@ -29,7 +29,7 @@ const Music = () => {
                         <H2>Maiores Sucessos</H2>
 
                         <DivIframe>
-                            <iframe title='Maiores sucessos Peão do Valle e Valentin' style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/playlist/2Rk6hvbIB4bIG8Jv1kUfFK?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                            <iframe title='Maiores sucessos Peão do Valle e Valentin' style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/playlist/2Rk6hvbIB4bIG8Jv1kUfFK?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen="" loading="lazy"></iframe>
                         </DivIframe>
                         <P>* Regule o volume pelo seu dispositivo.</P>
                     </SectionLimiter>

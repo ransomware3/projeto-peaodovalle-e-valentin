@@ -6,7 +6,6 @@ import {
     ImgLogo,
     Nav,
     Ul,
-    Li,
     Limiter,
     HambNav,
     HambUl,
@@ -27,10 +26,10 @@ const Header = () => {
                     <a href='/'><ImgLogo src={Logo}></ImgLogo></a>
                     <Nav>
                         <Ul>
-                            <Li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/">Início</NavLink></Li>
-                            <Li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/discografia">Discografia</NavLink></Li>
-                            <Li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/biografia">Biografia</NavLink></Li>
-                            <Li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/contato">Contato</NavLink></Li>
+                            <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/">Início</NavLink></li>
+                            <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/discografia">Discografia</NavLink></li>
+                            <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/biografia">Biografia</NavLink></li>
+                            <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/contato">Contato</NavLink></li>
                         </Ul>
                     </Nav>
                     <NavMob/>
@@ -51,17 +50,17 @@ const NavMob = () => {
             <InputCheck type="checkbox" id="menu-hamburguer"></InputCheck>
 
             <label htmlFor="menu-hamburguer">
-                <div class="menu">
-                    <span class="hamburguer"></span>
+                <div className="menu">
+                    <span className="hamburguer"></span>
                 </div>
             </label>
 
             <HambNav className='nav-mob'>
                 <HambUl>
-                    <Li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/">Início</NavLink></Li>
-                    <Li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/discografia">Discografia</NavLink></Li>
-                    <Li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/biografia">Biografia</NavLink></Li>
-                    <Li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/contato">Contato</NavLink></Li>
+                    <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/">Início</NavLink></li>
+                    <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/discografia">Discografia</NavLink></li>
+                    <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/biografia">Biografia</NavLink></li>
+                    <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/contato">Contato</NavLink></li>
                 </HambUl>
             </HambNav>
         </NavMobList>

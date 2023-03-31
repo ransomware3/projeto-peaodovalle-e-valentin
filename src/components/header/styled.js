@@ -44,10 +44,6 @@ export const Ul = styled.ul`
     gap: 50px;
 `
 
-export const Li = styled.li`
-    //
-`
-
 export const HambNav = styled.nav`
     width: 200px;
     height: 250px;
