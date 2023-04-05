@@ -1,0 +1,9 @@
+@font-face{
+    font-family: 'Rio Grande';
+    src: url(../../fonts/RioGrande.ttf) format(truetype);
+}
+
+@font-face{
+    font-family: 'Rio Grande 2';
+    src: url(../../fonts/RioGrande\ Striped.ttf) format(truetype);
+}

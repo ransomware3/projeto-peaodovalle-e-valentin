@@ -1,5 +1,7 @@
 .nav-link{
     position: relative;
+    font-family: sans-serif;
+    letter-spacing: 0;
 }
 
 .nav-link::after{

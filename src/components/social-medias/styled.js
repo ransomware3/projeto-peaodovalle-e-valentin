@@ -34,6 +34,7 @@ export const UlSocial = styled.ul`
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    max-width: 1300px;
     flex-flow: row wrap;
     gap: 40px;
 `
@@ -53,6 +54,8 @@ export const Anchor = styled.a`
 export const H2 = styled.h2`
     font-size: 35px;
     margin-bottom: 80px;
+    font-family: 'Rio Grande 2', sans-serif;
+    letter-spacing: 3px;
 
     @media(max-width: 1050px){
         font-size: 30px;

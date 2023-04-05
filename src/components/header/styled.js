@@ -6,7 +6,7 @@ export const HeaderTag = styled.header`
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    z-index: 3;
+    z-index: 4;
     display: flex;
     justify-content: center;
 `

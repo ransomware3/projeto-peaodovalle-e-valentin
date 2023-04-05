@@ -9,7 +9,7 @@ const Footer = () => {
         <>
             <FooterTag>
                 <Opacity>
-                    <P>© 2007-2023 Peão do Valle & Valentin. Todos os direitos reservados.</P>
+                    <P>© 2007-2023 Peao do Valle e Valentin. Todos os direitos reservados.</P>
                 </Opacity>
             </FooterTag>
         </>

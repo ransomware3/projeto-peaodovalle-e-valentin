@@ -26,7 +26,7 @@ const Header = () => {
                     <a href='/'><ImgLogo src={Logo}></ImgLogo></a>
                     <Nav>
                         <Ul>
-                            <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/">Início</NavLink></li>
+                            <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/">Inicio</NavLink></li>
                             <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/discografia">Discografia</NavLink></li>
                             <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/biografia">Biografia</NavLink></li>
                             <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/contato">Contato</NavLink></li>

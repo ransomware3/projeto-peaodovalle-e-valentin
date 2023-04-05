@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import Wood from '../../images/wood-3.jpg'
+import Wood from '../../images/wood.jpg'
 
 export const FooterTag = styled.footer`
     width: 100%;
