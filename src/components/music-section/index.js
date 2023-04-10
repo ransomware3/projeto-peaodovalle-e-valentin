@@ -7,7 +7,8 @@ import {
     DivIframe,
     H2,
     OpacityMusic,
-    P
+    P,
+    ContainerMusic
 } from './styled'
 
 const Music = () => {
@@ -16,6 +17,14 @@ const Music = () => {
             <AlignLimiter>
                 <OpacityMusic>
                     <SectionLimiter>
+                        <ContainerMusic>
+                            <H2>Maiores Sucessos</H2>
+                            <DivIframe>
+                                <iframe title='Maiores sucessos Peão do Valle e Valentin' style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/playlist/2Rk6hvbIB4bIG8Jv1kUfFK?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen="" loading="lazy"></iframe>
+                            </DivIframe>
+                            <P>* Regule o volume pelo seu dispositivo.</P>
+                        </ContainerMusic>
+
                         <H2>Álbuns em Destaque</H2>
                         <Ul>
                             <Li><Anchor className='lagrimas' target='_blank' rel="noopener noreferrer" href='https://open.spotify.com/album/2KqeafMeMpFEAvQ3xUqGq5?si=PkqacGIPTUmS5nAUawjITw'></Anchor><a target='_blank' rel="noopener noreferrer" href='https://open.spotify.com/album/2KqeafMeMpFEAvQ3xUqGq5?si=PkqacGIPTUmS5nAUawjITw'>Lágrimas na Areia</a></Li>
@@ -26,12 +35,6 @@ const Music = () => {
 
                             <Li><Anchor className='peao' target='_blank' rel="noopener noreferrer" href='https://open.spotify.com/album/7bx0rbcKIB3Q8fMe6sHoFo?si=Wp2NzUdoTUGtn8zhuGcr-Q'></Anchor><a target='_blank' rel="noopener noreferrer" href='https://open.spotify.com/album/7bx0rbcKIB3Q8fMe6sHoFo?si=Wp2NzUdoTUGtn8zhuGcr-Q'>Peão de Cristo</a></Li>
                         </Ul>
-                        <H2>Maiores Sucessos</H2>
-
-                        <DivIframe>
-                            <iframe title='Maiores sucessos Peão do Valle e Valentin' style={{ borderRadius: '12px' }} src="https://open.spotify.com/embed/playlist/2Rk6hvbIB4bIG8Jv1kUfFK?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowFullScreen="" loading="lazy"></iframe>
-                        </DivIframe>
-                        <P>* Regule o volume pelo seu dispositivo.</P>
                     </SectionLimiter>
                 </OpacityMusic>
             </AlignLimiter>

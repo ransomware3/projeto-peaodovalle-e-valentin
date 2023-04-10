@@ -36,13 +36,20 @@ export const OpacityMusic = styled.div`
 export const Ul = styled.ul`
     width: 100%;
     padding-bottom: 80px;
-    border-bottom: 1px solid #ccc;
+    // border-bottom: 1px solid #ccc;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    margin-bottom: 80px;
+    // margin-bottom: 80px;
     gap: 60px;
+`
+
+export const ContainerMusic = styled.div`
+    width: 100%;
+    padding-bottom: 80px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 80px;
 `
 
 export const Li = styled.li`

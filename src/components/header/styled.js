@@ -22,10 +22,10 @@ export const Limiter = styled.div`
 `
 
 export const ImgLogo = styled.img`
-    width: 80%;
+    width: 50%;
 
     @media(max-width: 1000px){
-        width: 70%;
+        width: 40%;
     }
 `
 
@@ -46,7 +46,6 @@ export const Ul = styled.ul`
 
 export const HambNav = styled.nav`
     width: 200px;
-    height: 250px;
     background-color: #000;
     position: absolute;
     right: 0;
@@ -59,7 +58,7 @@ export const HambNav = styled.nav`
 
 export const HambUl = styled.ul`
     width: 100%;
-    padding: 30px;
+    padding: 40px 30px;
     display: flex;
     flex-direction: column;
     justify-content: center;

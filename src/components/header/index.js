@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom'
-import Logo from '../../images/logo.png'
+import Logo from '../../images/peao-do-valle.png'
 import './class-names.css'
 import {
     HeaderTag,
@@ -28,6 +28,7 @@ const Header = () => {
                         <Ul>
                             <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/">Inicio</NavLink></li>
                             <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/discografia">Discografia</NavLink></li>
+                            <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/apresentacoes">Apresentações</NavLink></li>
                             <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/biografia">Biografia</NavLink></li>
                             <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/contato">Contato</NavLink></li>
                         </Ul>
@@ -59,6 +60,7 @@ const NavMob = () => {
                 <HambUl>
                     <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/">Início</NavLink></li>
                     <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/discografia">Discografia</NavLink></li>
+                    <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/apresentacoes">Apresentações</NavLink></li>
                     <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/biografia">Biografia</NavLink></li>
                     <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/contato">Contato</NavLink></li>
                 </HambUl>
