@@ -25,7 +25,7 @@ const Bio = () => {
                         <P>
                             Valentin, cujo nome completo é Joaquim Ferreira Sobrinho, nasceu em 5 de abril de 1955 em Eneida, distrito de Presidente Prudente, no estado de São Paulo. Ele começou sua carreira tocando em bandas de bailes e shows aos 17 anos, no estado do Paraná.
 
-                            Ao se estabelecer em Londrina, Valentin conheceu Peão do Valle, que fazia dupla com Praense na época. Com o fim da dupla em 1996, Peão do Valle e Valentin formaram uma nova dupla, gravando um CD pela gravadora CD Center Itaipu de São Paulo, além de alguns trabalhos independentes.
+                            Ao se estabelecer em Londrina, Valentin conheceu Peão do Valle, que fazia dupla com Praense na época. Com o fim da dupla em 1997, Peão do Valle e Valentin formaram uma nova dupla, gravando um CD pela gravadora CD Center Itaipu de São Paulo, além de alguns trabalhos independentes.
 
                             Atualmente, Valentin está lançando um novo trabalho pela gravadora Allegreto.
 
@@ -36,10 +36,12 @@ const Bio = () => {
 
                             Suas músicas são bem aceitas e executadas em muitas rádios pelo país, e seus vídeos possuem 8 milhões de visualizações. A dupla já participou de programas de TV de nível nacional, como Programa do Ratinho, Viola Minha Viola (Inezita Barroso), Brasil Caipira, Modão do Brasil e Programa do Teodoro e Sampaio, além de centenas de programas de TV regionais.
 
-                            A dupla também já concedeu centenas de entrevistas em rádios do Brasil. Seu lema é pontualidade, honestidade e responsabilidade. Durante seus shows com banda, a equipe contém 10 pessoas e a nota fiscal possui CNPJ.
+                            A dupla também já concedeu centenas de entrevistas em rádios do Brasil. Seu lema é pontualidade, honestidade e responsabilidade.
 
                             No vasto repertório da dupla, há músicas clássicas de outros artistas, como Matogrosso e Mathias, Teodoro e Sampaio, Tião Carreiro e Pardinho, e Peão Carreiro e Zé Paulo, além de modas de viola, românticas e dançantes.
-
+                        </P>
+                        <P>
+                            E até os dias de hoje a dupla Peão do Valle e Valentin segue forte, fazendo suas apresentações e conquistando fãs por onde passa.
                         </P>
                     </SectionLimiter>
                 </Opacity>
