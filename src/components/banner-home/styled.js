@@ -35,6 +35,14 @@ export const SectionImg = styled.div`
     justify-content: flex-start;
     align-items: center;
 
+    @media(max-width: 1360px){
+        width: 90%;
+    }
+
+    @media(max-width: 1200px){
+        width: 80%;
+    }
+
     @media(max-width: 905px){
         background-position: bottom;
     }
