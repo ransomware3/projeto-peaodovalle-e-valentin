@@ -15,10 +15,6 @@ export const SectionLimiter = styled.div`
     width: 75%;
     max-width: 1200px;
     padding-top: 60px;
-
-    // @media(max-width: 1000px){
-    //     text-align: center;
-    // }
 `
 
 export const Opacity = styled.div`
