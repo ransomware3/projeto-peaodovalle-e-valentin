@@ -4,12 +4,10 @@ import { BsFacebook } from 'react-icons/bs'
 import { FaSpotify } from 'react-icons/fa'
 import { BsYoutube } from 'react-icons/bs'
 import { FaDeezer } from 'react-icons/fa'
-import Wood from '../../images/wood-3.jpg'
 
 export const Section = styled.section`
     width: 100%;
     height: 400px;
-    // background-image: url(${Wood});
     background-color: #111;
     background-size: cover;
     background-repeat: no-repeat;

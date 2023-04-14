@@ -27,7 +27,7 @@ export const SectionLimiter = styled.div`
 export const UlContact = styled.ul`
     width: 100%;
     display: flex;
-    gap: 32px;
+    gap: 30px;
     justify-content: center;
     flex-flow: row wrap;
     margin: 50px 0;
@@ -59,6 +59,11 @@ export const Iframe = styled.iframe`
 
 export const Anchor = styled.a`
     transition: .2s;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     &:hover{
         color: #c66417;

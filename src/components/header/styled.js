@@ -21,12 +21,12 @@ export const Limiter = styled.div`
     gap: 30px;
 `
 
-export const ImgLogo = styled.img`
-    width: 50%;
+export const AnchorLogo = styled.a`
+    width: 150px;
+`
 
-    @media(max-width: 1000px){
-        width: 40%;
-    }
+export const ImgLogo = styled.img`
+    width: 100%;
 `
 
 export const Nav = styled.nav`

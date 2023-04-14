@@ -26,13 +26,13 @@ export const SectionLimiter = styled.div`
     }
 `
 
-export const DivContact = styled.div`
+export const UlContact = styled.ul`
     width: 70%;
     height: 300px;
     display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
-    margin-top: 50px;
+    align-items: center;
+    gap: 70px;
+    flex-flow: column wrap;
 `
 
 export const Opacity = styled.div`
@@ -43,4 +43,16 @@ export const Opacity = styled.div`
     min-height: 687px;
     background-color: rgba(0, 0, 0, 0.9);
     padding-bottom: 40px; 
+`
+
+export const H1 = styled.h1`
+    margin-bottom: 90px;
+`
+
+export const Anchor = styled.a`
+    font-size: 20px;
+
+    @media(max-width: 580px){
+        font-size: 16px;
+    }
 `

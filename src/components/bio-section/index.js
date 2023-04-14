@@ -12,22 +12,34 @@ const Bio = () => {
             <AlignLimiter>
                 <Opacity>
                     <SectionLimiter>
-                        <H1>Biografia Peão do Valle & Valentin</H1>
+                        <H1>Peão do Valle</H1>
                         <P>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut laoreet nisl, vel fringilla lacus. Nam luctus augue vestibulum pellentesque sagittis. Nam non sagittis urna. Etiam semper metus nisi, non maximus nisl accumsan imperdiet. Mauris laoreet tellus sed leo posuere, in vehicula ex maximus. Etiam scelerisque orci non pellentesque venenatis. Vivamus elementum lorem quis dolor imperdiet, et eleifend nunc suscipit. Vestibulum pretium augue nulla, in euismod ipsum semper nec.
-                            Quisque blandit sapien sit amet est semper, fermentum blandit leo aliquet. Mauris ullamcorper tortor quis ante iaculis, eu rutrum ante rutrum. Fusce id odio porttitor, molestie mi a, hendrerit nunc. Aenean vel sagittis justo, et luctus erat. Morbi eu quam eget purus interdum euismod vel vel est. Sed vulputate
+                            Peão do Valle nasceu em Batatais SP e foi criado na zona rural em Nova Esperança Paraná. Descobriu seu dom para cantar aos 24 anos, quando já era casado, e começou a cantar com seu irmão Portinary em festinhas e bares.
+
+                            Ele iniciou sua carreira como Peão do Valle na cidade de Ivaiporã, cantando na rádio Ubá. Mais tarde, formou uma dupla com o renomado cantor e compositor Praense, com quem ficou por 7 anos. Foi durante esse período que conheceu Valentin nos palcos.
+
+                            Finalmente, em 1997, a dupla Peão do Valle e Valentin teve seu início em Londrina.
+
                         </P>
+                        <H1>Valentin</H1>
                         <P>
-                            turpis nec nulla dignissim, id tristique ex cursus. Donec sed nisl vitae purus porttitor semper. Sed at molestie enim. Pellentesque sollicitudin convallis aliquet. Sed at massa odio. Phasellus a egestas turpis.
-                            Mauris elementum ac enim at imperdiet. Vestibulum a purus a risus lacinia auctor. Nam placerat convallis ante a laoreet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas ullamcorper eros at imperdiet cursus. Maecenas lobortis quis leo eu laoreet. Curabitur ultricies ligula ut dolor molestie, in consequat arcu porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                            Valentin, cujo nome completo é Joaquim Ferreira Sobrinho, nasceu em 5 de abril de 1955 em Eneida, distrito de Presidente Prudente, no estado de São Paulo. Ele começou sua carreira tocando em bandas de bailes e shows aos 17 anos, no estado do Paraná.
+
+                            Ao se estabelecer em Londrina, Valentin conheceu Peão do Valle, que fazia dupla com Praense na época. Com o fim da dupla em 1996, Peão do Valle e Valentin formaram uma nova dupla, gravando um CD pela gravadora CD Center Itaipu de São Paulo, além de alguns trabalhos independentes.
+
+                            Atualmente, Valentin está lançando um novo trabalho pela gravadora Allegreto.
+
                         </P>
+                        <H1>Peão do Valle & Valentin</H1>
                         <P>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut laoreet nisl, vel fringilla lacus. Nam luctus augue vestibulum pellentesque sagittis. Nam non sagittis urna. Etiam semper metus nisi, non maximus nisl accumsan imperdiet. Mauris laoreet tellus sed leo posuere, in vehicula ex maximus. Etiam scelerisque orci non pellentesque venenatis. Vivamus elementum lorem quis dolor imperdiet, et eleifend nunc suscipit. Vestibulum pretium augue nulla, in euismod ipsum semper nec.
-                            Quisque blandit sapien sit amet est semper, fermentum blandit leo aliquet. Mauris ullamcorper tortor quis ante iaculis, eu rutrum ante rutrum. Fusce id
-                        </P>
-                        <P>
-                            odio porttitor, molestie mi a, hendrerit nunc. Aenean vel sagittis justo, et luctus erat. Morbi eu quam eget purus interdum euismod vel vel est. Sed vulputate turpis nec nulla dignissim, id tristique ex cursus. Donec sed nisl vitae purus porttitor semper. Sed at molestie enim. Pellentesque sollicitudin convallis aliquet. Sed at massa odio. Phasellus a egestas turpis.
-                            Mauris elementum ac enim at imperdiet. Vestibulum a purus a risus lacinia auctor. Nam placerat convallis ante a laoreet. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas ullamcorper eros at imperdiet cursus. Maecenas lobortis quis leo eu laoreet. Curabitur ultricies ligula ut dolor molestie, in consequat arcu porta. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae;
+                            A dupla Peão do Valle e Valentin é originária de Londrina, no Paraná, e possui 30 anos de carreira. Eles já lançaram 10 trabalhos fonográficos (CDs) no mercado e suas músicas estão disponíveis em todas as plataformas digitais, com mais de 3 milhões de streaming.
+
+                            Suas músicas são bem aceitas e executadas em muitas rádios pelo país, e seus vídeos possuem 8 milhões de visualizações. A dupla já participou de programas de TV de nível nacional, como Programa do Ratinho, Viola Minha Viola (Inezita Barroso), Brasil Caipira, Modão do Brasil e Programa do Teodoro e Sampaio, além de centenas de programas de TV regionais.
+
+                            A dupla também já concedeu centenas de entrevistas em rádios do Brasil. Seu lema é pontualidade, honestidade e responsabilidade. Durante seus shows com banda, a equipe contém 10 pessoas e a nota fiscal possui CNPJ.
+
+                            No vasto repertório da dupla, há músicas clássicas de outros artistas, como Matogrosso e Mathias, Teodoro e Sampaio, Tião Carreiro e Pardinho, e Peão Carreiro e Zé Paulo, além de modas de viola, românticas e dançantes.
+
                         </P>
                     </SectionLimiter>
                 </Opacity>

@@ -10,7 +10,8 @@ import {
     HambNav,
     HambUl,
     InputCheck,
-    NavMobList
+    NavMobList,
+    AnchorLogo
 } from './styled'
 
 const Header = () => {
@@ -23,7 +24,7 @@ const Header = () => {
         <>
             <HeaderTag>
                 <Limiter>
-                    <a href='/'><ImgLogo src={Logo}></ImgLogo></a>
+                    <AnchorLogo href='/'><ImgLogo src={Logo}></ImgLogo></AnchorLogo>
                     <Nav>
                         <Ul>
                             <li><NavLink style={({ isActive }) => isActive ? activeStyle : undefined} className='nav-link' to="/">Inicio</NavLink></li>

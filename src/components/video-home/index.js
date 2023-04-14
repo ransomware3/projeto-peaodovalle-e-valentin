@@ -9,7 +9,7 @@ const VideoHome = () => {
         <>
             <Section>
                 <Opacity>
-                    <Iframe width="560" height="315" src="https://www.youtube.com/embed/8QVP4wusjz8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></Iframe>
+                    <Iframe width="560" height="315" src="https://www.youtube.com/embed/8QVP4wusjz8" title="album lagrimas na areia" frameborder="0" allowFullScreen=""></Iframe>
                 </Opacity>
             </Section>
         </>

@@ -13,12 +13,12 @@ export const AlignLimiter = styled.section`
 
 export const SectionLimiter = styled.div`
     width: 75%;
-    max-width: 1400px;
+    max-width: 1200px;
     padding-top: 60px;
 
-    @media(max-width: 1000px){
-        text-align: center;
-    }
+    // @media(max-width: 1000px){
+    //     text-align: center;
+    // }
 `
 
 export const Opacity = styled.div`
@@ -32,9 +32,10 @@ export const Opacity = styled.div`
 `
 
 export const H1 = styled.h1`
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 `
 
 export const P = styled.p`
-    margin-bottom: 25px;
+    margin-bottom: 80px;
+    line-height: 25px;
 `
