@@ -32,7 +32,7 @@ export const UlContact = styled.ul`
     display: flex;
     align-items: center;
     gap: 70px;
-    flex-flow: column wrap;
+    flex-direction: column;
 `
 
 export const Opacity = styled.div`
@@ -51,6 +51,11 @@ export const H1 = styled.h1`
 
 export const Anchor = styled.a`
     font-size: 20px;
+    transition: .2s;
+
+    &:hover{
+        color: #c66417;
+    }
 
     @media(max-width: 580px){
         font-size: 16px;
