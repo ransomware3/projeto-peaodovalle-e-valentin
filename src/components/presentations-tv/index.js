@@ -17,6 +17,12 @@ const Presentations = () => {
                         <h1>Apresentações na TV</h1>
                         <UlContact>
                             <li>
+                                <Iframe width="560" height="315" src="https://www.youtube.com/embed/FQKYko3xuO4?si=K2XOUGWF3O5DGP7c" title="YouTube video player" frameborder="0" allowfullscreen></Iframe>
+                            </li>
+                            <li>
+                                <Iframe width="560" height="315" src="https://www.youtube.com/embed/HKCGPXjWGN4?si=a52yoTPJk_F6nnU2" title="YouTube video player" frameborder="0" allowfullscreen></Iframe>
+                            </li>
+                            <li>
                                 <Iframe width="560" height="315" src="https://www.youtube.com/embed/2zWk1J2TYjA" title="YouTube video player" frameborder="0" allowfullscreen></Iframe>
                             </li>
                             <li>
